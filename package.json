@@ -1,0 +1,11 @@
+{
+  "name": "text-animations",
+  "version": "1.0.0",
+  "description": "Contains a series of Animations inspired from the internet",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pranav Soni",
+  "license": "ISC"
+}
