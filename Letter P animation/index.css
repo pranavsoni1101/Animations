@@ -1,0 +1,32 @@
+body {
+    background: black;
+   }
+   
+   #logo{
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+       animation: fill 0.5s ease forwards 3.5s;
+   }
+   
+   #logo path{
+       stroke-dasharray: 1215;
+       stroke-dashoffset: 1215;
+       animation: line-anim 10s ease forwards;
+   }
+   
+   @keyframes line-anim {
+       to {
+           stroke-dashoffset: 0;
+       }
+   }
+   
+   @keyframes fill {
+       from{
+           fill: transparent;
+       }
+       to{
+           fill: #DB6C79;
+       }
+   }
